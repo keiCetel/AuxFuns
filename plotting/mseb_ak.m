@@ -196,8 +196,8 @@ for c = C:-1:1
     
     
 %     %Make nice edges around the patch.
-%     H(c).edge(1)=plot(x(c,:),lE,'-','color',edgeColor);
-%     H(c).edge(2)=plot(x(c,:),uE,'-','color',edgeColor);
+     H(c).edge(1)=plot(x(c,:),lE,'-','color',edgeColor);
+     H(c).edge(2)=plot(x(c,:),uE,'-','color',edgeColor);
 end
 
 %% Second loop over the number of lines to be plotted
